@@ -2,6 +2,8 @@
 
 Generate professional labels for McMaster-Carr parts with automatic product information retrieval. Perfect for organizing parts bins, inventory management, and workshop organization.
 
+**License:** GNU General Public License v3.0
+
 ![Label Examples](samples/banner.png)
 
 ## ✨ Features
