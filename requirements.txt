@@ -1,0 +1,16 @@
+requests-pkcs12==1.25
+reportlab==4.2.5
+Pillow==11.0.0
+python-dotenv==1.0.1
+click==8.1.8
+certifi==2024.8.30
+pint==0.24.4
+pdf2image==1.17.0
+keyring==25.5.0
+pytest==8.3.3
+pytest-cov==6.0.0
+opencv-python==4.10.0.84
+scikit-learn==1.5.2
+scipy==1.14.1
+numpy==1.26.4
+PyMuPDF==1.24.14

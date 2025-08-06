@@ -1,0 +1,7 @@
+# Sample McMaster-Carr Product IDs
+# One product ID per line
+91290A115
+91290A116
+91290A117
+# Comments are ignored
+92620A200

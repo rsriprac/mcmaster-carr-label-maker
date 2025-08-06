@@ -1,0 +1,3 @@
+# This file ensures the output directory structure is maintained in git
+# All generated output files (*.pdf, *.png, etc.) are excluded from version control
+# See README.md for more information about the output directory

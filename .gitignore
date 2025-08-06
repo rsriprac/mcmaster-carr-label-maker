@@ -1,0 +1,266 @@
+# Sensitive Files - NEVER commit these
+.env
+.env.local
+.env.production
+.env.*.local
+*.pfx
+*.p12
+*.key
+*.pem
+*.crt
+*.cer
+# Certificate files in cert directory, but allow README
+cert/*.pfx
+cert/*.p12
+cert/*.key
+cert/*.pem
+cert/*.crt
+cert/*.cer
+!cert/README.md
+ca/
+
+# API Credentials and Secrets
+*credentials.json
+*credentials.txt
+*credentials.ini
+credentials/
+*secret*
+*password*
+config.local.py
+settings.local.py
+
+# Cache and Data Files
+# Exclude cache contents but keep directory structure
+# Product metadata
+cache/product_*.json
+cache/*.json
+
+# Placeholder files
+cache/*.notfound
+
+# Image files
+cache/image_*.png
+cache/image_*.jpg
+cache/image_*.jpeg
+cache/image_*.svg
+cache/image_*.gif
+cache/image_*.bmp
+cache/image_*.webp
+cache/*.png
+cache/*.jpg
+cache/*.jpeg
+cache/*.svg
+cache/*.gif
+cache/*.bmp
+cache/*.webp
+
+# CAD files (various formats McMaster might provide)
+cache/cad_*.step
+cache/cad_*.stp
+cache/cad_*.iges
+cache/cad_*.igs
+cache/cad_*.dxf
+cache/cad_*.dwg
+cache/cad_*.pdf
+cache/cad_*.stl
+cache/cad_*.obj
+cache/cad_*.sat
+cache/cad_*.x_t
+cache/cad_*.x_b
+cache/cad_*.ipt
+cache/cad_*.prt
+cache/cad_*.sldprt
+cache/*.step
+cache/*.stp
+cache/*.iges
+cache/*.igs
+cache/*.dxf
+cache/*.dwg
+cache/*.stl
+cache/*.obj
+cache/*.sat
+cache/*.x_t
+cache/*.x_b
+cache/*.ipt
+cache/*.prt
+cache/*.sldprt
+
+# Document files
+cache/*.pdf
+cache/*.xml
+cache/*.txt
+cache/*.csv
+
+# Temporary files
+cache/*.tmp
+cache/*.temp
+cache/*.lock
+cache/*.cache
+
+# Allow README and gitkeep
+!cache/README.md
+!cache/.gitkeep
+*.cache
+.cache/
+
+# Output Files
+# Exclude output contents but keep directory structure
+output/*.pdf
+output/*.png
+output/*.jpg
+output/*.jpeg
+output/*.gif
+output/*.bmp
+output/*.webp
+output/*.tiff
+output/*.tif
+!output/README.md
+!output/.gitkeep
+*.pdf
+!docs/*.pdf  # Allow PDFs in docs folder if needed
+# Allow sample images for documentation
+!samples/banner.png
+!samples/sample_*.png
+!samples/sample_*.pdf
+!samples/sample_*.jpg
+!samples/sample_*.bmp
+!samples/sample_*.webp
+!samples/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+.virtualenv
+virtualenv/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+nosetests.xml
+test-results/
+junit.xml
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Logs
+*.log
+logs/
+*.log.*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Claude-specific files
+CLAUDE.md
+.claude/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+tmp/
+temp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Documentation build
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# Package files
+*.tar.gz
+*.zip
+*.tar
+*.gz
+
+# Analysis and profiling
+*.prof
+*.stats
+profile_*.txt
+analysis_*.py
+*_analysis.py
+*_profile.py
+*_test_*.py
+
+# Temporary ordering files
+ordered_products.txt
+ordered_products.v2.txt
+test_sorted_output.txt
+sorter_*_comparison.txt
+
+# Miscellaneous
+.python-version
+.env.example.filled
+node_modules/
+.sass-cache/
+*.orig
+.git-rewrite/

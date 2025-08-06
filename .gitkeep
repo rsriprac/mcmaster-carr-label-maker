@@ -1,0 +1,14 @@
+# Files that SHOULD be committed (exceptions to .gitignore)
+
+# Keep these files even though they match ignore patterns:
+# - .env.example (template for environment variables)
+# - requirements.txt (Python dependencies)
+# - pytest.ini (test configuration)
+# - README.md and other documentation
+# - Makefile (build automation)
+# - src/ directory (all source code)
+# - tests/ directory (all tests)
+# - product_id.txt files (example product lists)
+
+# Note: The actual certificate files (*.pfx, *.pem) should NEVER be committed
+# Only commit instructions on how to obtain/generate them
